@@ -1,14 +1,16 @@
+/* Univeral Selector */
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
 
+/* Element Selectors */
 body {
     background-color: #d9dcd6;
 }
 
-/* used for header styling */
+/* Sets a general styling for header */
 header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -21,11 +23,12 @@ header h1 {
     font-size: 48px;
 }
 
-header h1 .seo {
+/* Changes the colour of word in the header */
+header h1 c1 {
     color: #d9dcd6;
 }
 
-/* used for nav styling */
+/* Sets a style of nav */
 nav {
     padding-top: 15px;
     margin-right: 20px;
